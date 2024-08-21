@@ -32,7 +32,7 @@ function ItemMap({ item, setFormId,setLoading }) {
             />
             <h2 className="text-xl font-semibold mt-2">{res.title}</h2>
             <a
-              href={`http://localhost:5173/form/${res._id}`}
+              href={`https://formscloud.netlify.app/form/${res._id}`}
               target="_blank"
               className="text-blue-500 underline"
             >
